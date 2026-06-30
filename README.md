@@ -9,7 +9,7 @@ Around the same time, the World Cup was going on and it quickly became clear tha
 Turn the display window of the [LEGO Game Boy set (72046)](https://www.lego.com/product/game-boy-72046)
 into a live scoreboard for the FIFA World Cup, powered by an ESP32 and a small SPI display. No soldering required if you buy parts with pre-soldered headers.
 
-![Game Boy scoreboard showing a live match](docs/screenshot.jpg)
+<img src="docs/screenshot.jpg" alt="LEGO Game Boy showing a live Mexico vs Czechia World Cup match, 3-0, with goal scorers and venue listed" width="360">
 
 
 ## What it does
