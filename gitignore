@@ -1,0 +1,15 @@
+# Personal config — contains your Wi-Fi password, never commit this
+config.h
+
+# Arduino IDE / build artifacts
+build/
+*.hex
+*.elf
+*.bin.map
+
+# macOS
+.DS_Store
+
+# Editor cruft
+.vscode/
+*.swp

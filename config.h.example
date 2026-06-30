@@ -1,0 +1,27 @@
+/*
+  config.h.example
+  ------------------------------------------------------------
+  Copy this file to "config.h" and fill in your own values.
+  config.h is gitignored — it will never be committed, so your
+  Wi-Fi password stays private even if you push this repo publicly.
+
+      cp config.h.example config.h
+*/
+
+// ── Wi-Fi credentials ──────────────────────────────────────────────────────
+// The ESP32 only supports 2.4GHz networks (not 5GHz).
+#define WIFI_SSID "your-network-name"
+#define WIFI_PASS "your-network-password"
+
+// ── Timezone ───────────────────────────────────────────────────────────────
+// GMT_OFFSET_SEC: your standard-time offset from UTC, in seconds.
+//   US Eastern:  -5 * 3600
+//   US Central:  -6 * 3600
+//   US Mountain: -7 * 3600
+//   US Pacific:  -8 * 3600
+//   UK/Ireland:   0 * 3600
+//   Central Europe: 1 * 3600
+// DST_OFFSET_SEC: additional offset during daylight saving, usually 3600
+//   (set to 0 if your region doesn't observe DST)
+#define GMT_OFFSET_SEC  (-5 * 3600)
+#define DST_OFFSET_SEC  3600
