@@ -10,7 +10,12 @@ Turn the display window of the [LEGO Game Boy set (72046)](https://www.lego.com/
 into a live scoreboard for the FIFA World Cup, powered by an ESP32 and a small SPI display. No soldering required if you buy parts with pre-soldered headers.
 
 <img src="docs/screenshot.jpg" alt="LEGO Game Boy showing a live Mexico vs Czechia World Cup match, 3-0, with goal scorers and venue listed" width="360">
+
+*The scoreboard live in the LEGO shell*
+
 https://github.com/user-attachments/assets/3bf12aa0-ae73-4674-9499-e190e4abba91
+
+*Goal animation demo*
 
 ## What it does
 
